@@ -1,0 +1,1 @@
+import{j as t}from"./index-D5vHPzra.js";import{H as e}from"./Helmet-DoUfYJ11.js";const r="/Ecommarce/assets/error-B1_ZqxX0.svg";function n(){return t.jsxs(t.Fragment,{children:[t.jsx(e,{children:t.jsx("title",{children:"404 Not Found"})}),t.jsx("div",{className:"flex justify-center items-center",children:t.jsx("img",{src:r,alt:"404 Not Found"})})]})}export{n as default};
