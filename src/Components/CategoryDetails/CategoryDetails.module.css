@@ -1,0 +1,20 @@
+
+@keyframes spinAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotateY(0deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2) rotateY(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateY(360deg);
+  }
+}
+
+.animate-spin-appear {
+  animation: spinAppear 1.5s ease forwards;
+  transform-origin: center center;
+}
