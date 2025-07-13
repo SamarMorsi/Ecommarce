@@ -35,7 +35,7 @@ axios.post('https://ecommerce.routemisr.com/api/v1/auth/signup',val).then(({data
 let validation=Yup.object().shape({
   name: Yup.string().required('name is required').min(3,'min 3 letters'),
   email: Yup.string().email('invalid email').required('email is required'),
-  password: Yup.string().required('password is required').matches(/^[A-Z][a-z0-9]{4,10}$/, 'invalid password'),
+  password: Yup.string().required('password is required').matches(/^[A-Z][a-z0-9]{4,10}$/, ' invalid password start 1 letters capital and min 4 letters small and max 9 and numbers'),
   rePassword:Yup.string().required('repassword is requird').oneOf([Yup.ref('password')], 'passwords do not match'),
   phone:Yup.string().required('phone is requird').matches(/^01[01257][0-9]{8}$/, 'invalid phone'),
 })
